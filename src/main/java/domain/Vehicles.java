@@ -2,14 +2,14 @@ package domain;
 
 public class Vehicles {
 
-	private String vehicleName = ""; // private String firstName = "";
-	private String vehicleCountryOfOrigin = ""; // private String lastName = "";
-	private String vehicleClass = ""; // private String zipCode = "";
-	private int avgArmor; // private String town = "";
-	private int avgArmorPenetration;// private String pin = "";
+	private String vehicleName = ""; 
+	private String vehicleCountryOfOrigin = ""; 
+	private String vehicleClass = ""; 
+	private int avgArmor; 
+	private int avgArmorPenetration;
 	private double avgRateOfFire;
 	private int stockEnginePower;
-	private int yearOfProduction;// private Date dateOfBirth = new Date();
+	private int yearOfProduction;
 
 	public String getVehicleName() {
 		return vehicleName;
